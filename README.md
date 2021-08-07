@@ -62,12 +62,12 @@ PLACE 6,6,NORTH
 MOVE
 REPORT
 Output: 
-Invalid command - Please place the robot within the grid area!
+Invalid location - Please place the robot within the grid area!
 
 Input:
 0,0,NORTH
 MOVE
 Output:
-Invalid command - Please make sure the "PLACE" and "REPORT" commands are in place!
+Invalid command!
 ```
 
