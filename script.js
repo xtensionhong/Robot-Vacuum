@@ -49,7 +49,7 @@ function start() {
 
     function runDirection(directions) {
         for (let i = 0; i < directions.length; i++) {
-            updateLocation(directions[i], facingDirection, currentX, currentY)
+            updateLocation(directions[i], facingDirection, currentX, currentY);
         }
     }
 
