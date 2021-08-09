@@ -25,8 +25,6 @@ REPORT
 - The first valid command to the robot is a **_PLACE_** command, after that, any sequence of commands may be issued, in any order, including another **_PLACE_** command. The application should discard all commands in the sequence until a valid **_PLACE_** command has been executed.
 - **_MOVE_** will move the robot one unit forward in the direction it is currently facing.
 - **_LEFT_** and **_RIGHT_** will rotate the robot 90 degrees in the specified direction without changing the position of the robot.
-- **_LEFT_** and **_RIGHT_** will rotate the robot 90 degrees in the specified direction without changing the position of the robot.
-- **_LEFT_** and **_RIGHT_** will rotate the robot 90 degrees in the specified direction without changing the position of the robot.
 - **_REPORT_** will announce the X,Y and F of the robot.
 - A robot that is not already placed in the area, commands (the MOVE, LEFT, RIGHT and REPORT) will be ignored.
 
