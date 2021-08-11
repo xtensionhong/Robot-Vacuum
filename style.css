@@ -6,11 +6,6 @@ body {
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.container {
-    /*max-width: 42em;*/
-    /*border: 1px red solid;*/
-}
-
 .bs-gray-400{
     background-color: #ccc;
 }
